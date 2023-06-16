@@ -1,0 +1,143 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-img {
+    width: 70%;
+    transform: rotate(25deg);
+}
+
+#features {
+    padding: 100px 150px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 5rem;
+    text-align: center;
+    color: #ef8172;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.testimonial-image {
+    width : 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2%;
+}
+
+.cta-txt {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 7% 20% 0%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7%;
+}
+
+@media(max-width : 1020px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0deg);
+    }
+}
